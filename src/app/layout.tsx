@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { Header } from '@/components/Header';
+import Footer from '@/components/footer';
 import { jetBrainsMono } from '@/fonts/font';
 import { ThemeProvider } from '@/providers/theme';
 
@@ -19,7 +21,17 @@ export default function RootLayout({
 				className={`${jetBrainsMono.className} antialiased`}
 				suppressHydrationWarning>
 				<ThemeProvider>
-					<main>{children}</main>
+					<div className='mx-auto max-w-[85rem] h-screen px-2 sm:p-0'>
+						<div className='flex flex-col sm:flex-row gap-2'>
+							<Header />
+							<div className='w-full'>
+								<main className='h-[calc(100vh-7.5rem)] sm:h-[calc(100vh-1.5rem)] overflow-y-auto [&::-webkit-scrollbar]:hidden'>
+									{children}
+								</main>
+								<Footer />
+							</div>
+						</div>
+					</div>
 				</ThemeProvider>
 			</body>
 		</html>
