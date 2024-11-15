@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { Button } from '../ui/button';
 import { SheetClose } from '../ui/sheet';
 
-export const NavBar = () => {
+export const NavBarMobile = () => {
 	const pathname = usePathname();
 	return (
 		<nav className={clsx('flex flex-col gap-4 flex-1 ')}>

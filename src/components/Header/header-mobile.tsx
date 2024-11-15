@@ -11,7 +11,7 @@ import {
 	SheetHeader,
 	SheetTrigger
 } from '../ui/sheet';
-import { NavBar } from './navbar';
+import { NavBarMobile } from './navbar-mobile';
 
 export const HeaderMobile = () => {
 	return (
@@ -33,9 +33,9 @@ export const HeaderMobile = () => {
 						</SheetClose>
 					</SheetHeader>
 					<div className='h-[1px] w-full bg-border my-4' />
-					<NavBar />
+					<NavBarMobile />
 					<SheetFooter className='h-20 mt-4 flex items-center justify-center'>
-						<MediaSocial />
+						<MediaSocial sizeMenuDesktop={true} />
 					</SheetFooter>
 				</SheetContent>
 			</Sheet>
