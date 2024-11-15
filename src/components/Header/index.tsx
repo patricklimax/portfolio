@@ -1,4 +1,5 @@
 import { BoxDiv } from '../box-div';
+import { HeaderDesktop } from './header-desktop';
 import { HeaderMobile } from './header-mobile';
 
 export const Header = () => {
@@ -6,7 +7,7 @@ export const Header = () => {
 		<header className='h-20 sm:h-screen'>
 			<BoxDiv className='h-full'>
 				<HeaderMobile />
-				<div className='hidden sm:flex md:w-72 sm:w-20'>menu desktop</div>
+				<HeaderDesktop />
 			</BoxDiv>
 		</header>
 	);

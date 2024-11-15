@@ -1,5 +1,6 @@
 import { mediaSocial } from '@/data/media-social';
 import type { MediaSocialType } from '@/types/media-social';
+import clsx from 'clsx';
 import Link from 'next/link';
 import { BoxDiv } from './box-div';
 
@@ -17,9 +18,16 @@ const MediaSocialItem = ({ name, href, icon: Icon }: MediaSocialType) => {
 	);
 };
 
-export const MediaSocial = () => {
+type MediaSocialProps = {
+	sizeMenuDesktop?: boolean;
+};
+
+export const MediaSocial = ({ sizeMenuDesktop }: MediaSocialProps) => {
 	return (
-		<BoxDiv className='flex gap-4 bg-transparent'>
+		<BoxDiv
+			className={clsx('flex gap-2', {
+				'flex-col': !sizeMenuDesktop
+			})}>
 			{mediaSocial.map(item => (
 				<MediaSocialItem
 					key={item.name}
