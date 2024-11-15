@@ -2,6 +2,7 @@
 import clsx from 'clsx';
 import { PanelsTopLeftIcon } from 'lucide-react';
 import { useState } from 'react';
+import Footer from '../footer';
 import { Logotipo } from '../logotipo';
 import { MediaSocial } from '../media-social';
 import { ToggleTheme } from '../theme-toggle';
@@ -14,7 +15,6 @@ export const HeaderDesktop = () => {
 
 	const handleDecreaseSizeHeaderButton = () => {
 		setSizeHeaderMinus(!sizeHeaderMinus);
-		console.log('chamou o size');
 	};
 	return (
 		<div
@@ -43,12 +43,14 @@ export const HeaderDesktop = () => {
 			</div>
 
 			<div
-				className={clsx('flex items-center gap-2 py-4', {
+				className={clsx('flex items-center gap-2 py-2', {
 					'flex-col-reverse': sizeHeaderMinus
 				})}>
 				<ToggleTheme />
 				<MediaSocial sizeMenuDesktop={!sizeHeaderMinus} />
 			</div>
+
+			{!sizeHeaderMinus && <Footer />}
 		</div>
 	);
 };

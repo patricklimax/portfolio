@@ -22,14 +22,14 @@ export default function RootLayout({
 				suppressHydrationWarning>
 				<ThemeProvider>
 					<div className='mx-auto max-w-[85rem] h-screen px-2 sm:p-0'>
-						<div className='flex flex-col sm:flex-row gap-2'>
+						<div className='w-full flex flex-col sm:flex-row'>
 							<Header />
-							<div className='w-full'>
-								<main className='h-[calc(100vh-7.5rem)] sm:h-[calc(100vh-1.5rem)] overflow-y-auto [&::-webkit-scrollbar]:hidden'>
-									{children}
-								</main>
-								<Footer />
-							</div>
+							<main className='sm:h-screen overflow-y-auto [&::-webkit-scrollbar]:hidden'>
+								{children}
+							</main>
+						</div>
+						<div className='sm:hidden'>
+							<Footer />
 						</div>
 					</div>
 				</ThemeProvider>

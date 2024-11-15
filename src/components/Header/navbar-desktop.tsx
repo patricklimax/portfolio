@@ -12,7 +12,7 @@ type NavBarDesktopProps = {
 export const NavBarDesktop = ({ sizeMenuDesktop }: NavBarDesktopProps) => {
 	const pathname = usePathname();
 	return (
-		<nav className={clsx('flex flex-col items-center gap-4 w-full my-6')}>
+		<nav className={clsx('flex flex-col items-center gap-4 w-full py-4')}>
 			{linksMenuNavBar.map(link => {
 				const LinkIcon = link.icon;
 				return (

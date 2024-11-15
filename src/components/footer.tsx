@@ -1,11 +1,7 @@
-import { BoxDiv } from './box-div';
-
 const Footer = () => {
 	return (
-		<footer className='mx-auto h-6 w-full'>
-			<BoxDiv className='h-full flex items-center justify-end px-4'>
-				<p className='text-xs'>Todos os Direitos Reservados</p>
-			</BoxDiv>
+		<footer className='mx-auto py-6 sm:py-1 sm:border-none w-full border-t'>
+			<p className='text-xs text-center'>Todos os Direitos Reservados</p>
 		</footer>
 	);
 };
