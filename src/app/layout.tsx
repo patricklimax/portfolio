@@ -24,7 +24,7 @@ export default function RootLayout({
 					<div className='mx-auto max-w-[85rem] h-screen px-2 sm:p-0'>
 						<div className='w-full flex flex-col sm:flex-row'>
 							<Header />
-							<main className='sm:h-screen overflow-y-auto [&::-webkit-scrollbar]:hidden'>
+							<main className='h-[calc(100vh-5rem)] sm:h-screen overflow-y-auto [&::-webkit-scrollbar]:hidden w-full'>
 								{children}
 							</main>
 						</div>
