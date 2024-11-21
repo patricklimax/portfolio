@@ -12,11 +12,11 @@ export const linksMenuNavBar: ItemMenuNavBar[] = [
 		href: '/about',
 		icon: lucideReact.UserIcon
 	},
-	{
-		name: 'Serviços',
-		href: '/services',
-		icon: lucideReact.BriefcaseBusinessIcon
-	},
+	// {
+	// 	name: 'Serviços',
+	// 	href: '/services',
+	// 	icon: lucideReact.BriefcaseBusinessIcon
+	// },
 	{
 		name: 'Projetos',
 		href: '/projects',
