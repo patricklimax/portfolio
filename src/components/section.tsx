@@ -14,7 +14,7 @@ export const TitlePage = () => {
 					pathName === sec.href && (
 						<h3
 							key={sec.nameId}
-							className='text-2xl font-semibold text-primary h-10'>
+							className='text-2xl font-semibold text-primary mb-6'>
 							const <span className='text-foreground'>{sec.title}</span>
 						</h3>
 					)
