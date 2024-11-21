@@ -5,10 +5,10 @@ import { HeaderMobile } from './header-mobile';
 export const Header = () => {
 	return (
 		<header className='h-20 sm:h-screen'>
-			<BoxDiv className='h-full'>
+			<div className='h-full rounded-md shadow-sm'>
 				<HeaderMobile />
 				<HeaderDesktop />
-			</BoxDiv>
+			</div>
 		</header>
 	);
 };
