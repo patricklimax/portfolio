@@ -2,6 +2,147 @@ import type { Project } from '@/types/project';
 
 export const projects: Project[] = [
 	{
+		id: 300554,
+		name: 'Cioccolato Store',
+		class: 'principal',
+		descriptionCover:
+			'Este projeto foi desenvolvido para oferecer uma experiência de compra completa e intuitiva para uma loja de chocolates, doces e confeitos. A aplicação permite que os usuários explorem o cardápio, escolham produtos com diferentes opções de personalização, e finalizem suas compras com pagamento via QR Code Pix.',
+		descriptionProject:
+			'A aplicação permite que os usuários explorem o cardápio, escolham produtos com diferentes opções de personalização, e finalizem suas compras com pagamento via QR Code Pix. O projeto conta com um site para apresentação da loja e uma página de menu/cardápio onde os usuários podem: navegar entre as categorias de produtos; escolher um produto e personalizá-lo com sabor, recheio, massa, cobertura e adicionais; adicionar produtos ao carrinho, revisar o pedido e realizar o checkout; gerar um QR Code para pagamento via Pix; enviar o pedido finalizado para o WhatsApp da loja.',
+		imgUrlCover:
+			'https://utfs.io/f/T771UCDelI3GUl6bdSxVNBHw5xf7rWMGhq1Sgnli8Qz0YdkJ',
+		imgUrlTech:
+			'https://utfs.io/f/T771UCDelI3GzD8WoNGHVCyZXr20zDs6jpEFMGfJ3QtkT5hO',
+		imgUrlFunc:
+			'https://utfs.io/f/T771UCDelI3Gtu6vvzZ8Sk3WVKUucl27IhLAOR0Y5FvqsegH',
+		githubURL: 'https://github.com/patricklimax/react-store-cioccolato',
+		onlineURL: 'https://cioccolato.vercel.app/',
+		technologies: [
+			'React + Next.js: estrutura principal da aplicação.',
+			'Tailwind CSS: estilização rápida e responsiva.',
+			'TypeScript: segurança e consistência de código.',
+			'ShadCN UI: biblioteca de componentes UI altamente customizável.',
+			'Lucide Icon: biblioteca de ícones flexível.',
+			'Next Themes: alternância entre temas claro e escuro.',
+			'Pix-utils: utilitário para gerar QR Codes Pix para pagamento.',
+			'qrcode.react: biblioteca para geração de QR Codes.',
+			'React Copy Clipboard: cópia de dados para a área de transferência (ex. chave Pix).',
+			'Zod: validação e formatação de dados dos formulários.',
+			'React Hook Form: gerencia e valida os dados de formulários.',
+			'Zustand: gerenciador de estado global leve e intuitivo.',
+			'LocalStorage: persistência de dados no navegador.'
+		],
+		functionalities: [
+			'Exploração e Navegação no Cardápio.',
+			'Navegação entre categorias de produtos.',
+			'Exibição de informações detalhadas de cada produto.',
+			'Personalização de Produtos: Seleção de sabor, recheio, massa, cobertura e adicionais.',
+			'Carrinho de Compras: Adição de produtos ao carrinho, com possibilidade de revisão do pedido.',
+			'Checkout e Pagamento: Formulário para dados do usuário e endereço.',
+			'Geração automática de QR Code Pix para pagamento.',
+			'Envio para WhatsApp: O pedido, contendo descrição minuciosa de cada item, cópia do qrcode-PIX, valor total e forma de pagamento, fazem parte da mensagem do pedido, que é enviada para o WhatsApp da loja.'
+		]
+	},
+	{
+		id: 300454,
+		name: 'Gerador de Rifa',
+		class: 'principal',
+		descriptionCover:
+			'Este é um projeto de Gerador de Rifas, desenvolvido com carinho a pedido do meu afilhado. A aplicação permite gerar cartelas de rifas personalizadas em PDF.',
+		descriptionProject:
+			'Este é um projeto de Gerador de Rifas, desenvolvido com carinho a pedido do meu afilhado. A aplicação permite gerar cartelas de rifas personalizadas em PDF, prontas para impressão, com campos para controle de venda, prêmios, e detalhes do sorteio.',
+		imgUrlCover:
+			'https://utfs.io/f/T771UCDelI3GKNLGYhi4h0GislgS1QwHX5axkVqnrPM9KbjB',
+		imgUrlTech:
+			'https://utfs.io/f/T771UCDelI3Ge3dN3dav3GYCdaRDVTjlzpQeA7bXgPc0HsxN',
+		imgUrlFunc:
+			'https://utfs.io/f/T771UCDelI3GKNLGYhi4h0GislgS1QwHX5axkVqnrPM9KbjB',
+		githubURL: 'https://github.com/patricklimax/raffle-generator',
+		onlineURL: 'https://raffle-generator.vercel.app/',
+		technologies: [
+			'React: Biblioteca JavaScript para construção de interfaces interativas.',
+			'Vite: Ferramenta de build rápida para desenvolvimento frontend.',
+			'Tailwind CSS: Framework de CSS utilitário para estilização rápida e responsiva.',
+			'TypeScript: Superset de JavaScript que adiciona tipagem estática ao código.',
+			'Zod: Biblioteca para validação de esquemas de dados, garantindo a integridade dos formulários.',
+			'React Hook Form: Biblioteca para gerenciamento de formulários em React, com foco em performance e experiência do usuário.',
+			'jsPDF: Biblioteca JavaScript para gerar PDFs diretamente no navegador.'
+		],
+		functionalities: [
+			'Gerar Cartelas de Rifa: Crie rifas personalizadas com informações de sorteio, descrição, prêmios, e valor.',
+			'Layout Personalizado: Cada cartela inclui campos de controle para o vendedor e informações detalhadas para o comprador.',
+			'Exportação para PDF: Imprima as cartelas em PDF, com layout ajustado para conter várias rifas por página.',
+			'Validação com Zod: Garantia de que todos os campos obrigatórios sejam preenchidos corretamente.'
+		]
+	},
+	{
+		id: 300354,
+		name: 'Agendar Services',
+		class: 'principal',
+		descriptionCover:
+			'Agendar é uma aplicação moderna e intuitiva desenvolvida para facilitar a gestão de agendamentos, permitindo que os usuários organizem compromissos de maneira prática e eficiente.',
+		descriptionProject:
+			'Agendar é uma aplicação moderna e intuitiva desenvolvida para facilitar a gestão de agendamentos, permitindo que os usuários organizem compromissos de maneira prática e eficiente. O sistema oferece integração com o Google para login, proporcionando uma experiência segura e simplificada.',
+		imgUrlCover:
+			'https://utfs.io/f/T771UCDelI3G7eVDMXKgQ2VzS3hjaNufUwstC56v1dKDyxTI',
+		imgUrlTech:
+			'https://utfs.io/f/T771UCDelI3GyjGUuO4fPxJ8QgktRqj6UE7hcyb9FWN2XSY0',
+		imgUrlFunc:
+			'https://utfs.io/f/T771UCDelI3GEOCzsxJLfckiPmzZJgFBweQnrhGxEvy5KAqM',
+		githubURL: 'https://github.com/patricklimax/react-agendar',
+		onlineURL: 'https://agendar-dev.vercel.app/',
+		technologies: [
+			'React: Biblioteca JavaScript para construção de interfaces interativas.',
+			'Next.js: Framework React para aplicações web rápidas e otimizadas.',
+			'TypeScript: Superset de JavaScript que adiciona tipagem estática ao código.',
+			'Tailwind CSS: Framework de estilização utilitária para criação de designs responsivos e modernos.',
+			'ShadCN UI: Biblioteca de componentes para React, proporcionando uma interface visual consistente.',
+			'Prisma: ORM moderno para integração com banco de dados, garantindo consultas e manipulação eficientes.',
+			'NextAuth.js: Solução para autenticação no Next.js, usada para login seguro via conta Google.',
+			'Vercel: Plataforma de hospedagem para aplicações frontend de alta performance.'
+		],
+		functionalities: [
+			'Login com Google: Autenticação segura e prática utilizando NextAuth.js.',
+			'Gestão de agendamentos: Criação, edição, visualização e exclusão de compromissos.',
+			'Design responsivo e acessível: Interface amigável e adaptável para diferentes dispositivos.',
+			'Integração com banco de dados: Persistência de dados de agendamentos utilizando Prisma.',
+			'Desempenho otimizado: A aplicação é hospedada na Vercel, garantindo alta performance.',
+			'Interface rica e estilizada: Uso de Tailwind CSS e ShadCN UI para uma experiência visual moderna.'
+		]
+	},
+	{
+		id: 300254,
+		name: 'Gerador de Recibo',
+		class: 'principal',
+		descriptionCover:
+			'O Gerador de Recibo em PDF é uma aplicação web que permite aos usuários criar recibos personalizados e baixá-los em formato PDF. ',
+		descriptionProject:
+			'O Gerador de Recibo em PDF é uma aplicação web que permite aos usuários criar recibos personalizados e baixá-los em formato PDF. Desenvolvido com React, Next.js, Tailwind CSS, TypeScript, e utilizando a biblioteca React-to-PDF para a geração dos arquivos, este projeto oferece uma solução rápida e eficiente para a criação de recibos digitais. A aplicação é hospedada na Vercel, garantindo alta disponibilidade e desempenho.',
+		imgUrlCover:
+			'https://utfs.io/f/T771UCDelI3Gg8gdLirvlIWGquR926c75zYMtHUZNrja3JyT',
+		imgUrlTech:
+			'https://utfs.io/f/T771UCDelI3GjEazatOK1UuNrpisqlWBgD7jb3TJ9Xzdxo6C',
+		imgUrlFunc:
+			'https://utfs.io/f/T771UCDelI3GBaNEFFtHVmIWsSNfLcZ4nPDg9bwRCTkv2jAF',
+		githubURL: 'https://github.com/patricklimax/react-receipt-pdf',
+		onlineURL: 'https://receipt-pdf.vercel.app/',
+		technologies: [
+			'React: Biblioteca JavaScript para construção de interfaces de usuário. ',
+			'Next.js: Framework React que facilita a renderização do lado do servidor (SSR) e a geração de sites estáticos (SSG).',
+			'Shadcn UI: Biblioteca de componentes React para estilização de interfaces.',
+			'React-to-PDF: Biblioteca para gerar arquivos PDF a partir de componentes React.',
+			'Tailwind CSS: Framework de CSS utilitário para estilização rápida e responsiva.',
+			'TypeScript: Superset do JavaScript que adiciona tipagem estática ao projeto.'
+		],
+		functionalities: [
+			'Criação de Recibos: Insira informações como nome, valor, data e descrição para gerar um recibo personalizado.',
+			'Geração de PDF: Converta o recibo gerado em um arquivo PDF com um único clique.',
+			'Download de Recibos: Baixe o recibo em PDF diretamente para o seu dispositivo.',
+			'Interface Responsiva: Desfrute de uma experiência de usuário otimizada para dispositivos móveis e desktops.',
+			'Design Personalizável: Estilize o recibo utilizando Tailwind CSS para atender às suas necessidades.'
+		]
+	},
+	{
 		id: 300154,
 		name: 'Lista de Compras',
 		class: 'principal',
@@ -151,7 +292,7 @@ export const projects: Project[] = [
 	{
 		id: 300150,
 		name: 'Starbucks Clone',
-		class: 'principal',
+		class: 'others',
 		descriptionCover:
 			'O Clone do Starbucks é um projeto de front-end que recria a interface do site da Starbucks, utilizando apenas HTML e CSS.',
 		descriptionProject:
