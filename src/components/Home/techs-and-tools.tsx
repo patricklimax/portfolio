@@ -32,11 +32,14 @@ const ToolsCard = () => {
 			<Marquee
 				pauseOnHover
 				className='[--duration:40s]'>
-				<Badge variant={'outline'}>Figma</Badge>
-				<Badge variant={'outline'}>UXdesign</Badge>
+				<Badge variant={'outline'}>Boa escrita</Badge>
+				<Badge variant={'outline'}>Leitor de Manuais</Badge>
 				<Badge variant={'outline'}>Interativo</Badge>
-				<Badge variant={'outline'}>UIdesign</Badge>
+				<Badge variant={'outline'}>Organizado</Badge>
 				<Badge variant={'outline'}>Proativo</Badge>
+				<Badge variant={'outline'}>Lógico</Badge>
+				<Badge variant={'outline'}>Adaptável</Badge>
+				<Badge variant={'outline'}>Aprendiz</Badge>
 			</Marquee>
 		</div>
 	);
