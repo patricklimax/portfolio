@@ -18,14 +18,14 @@ export const LastProject = () => {
 					Veja meu último trabalho
 				</CardTitle>
 
-				<div className='h-[160px] md:h-[220px] w-full'>
+				<div className='h-[160px] md:h-[350px] w-full'>
 					<Link href={`/projects/${recentProject.id}`}>
 						<Image
 							src={recentProject.imgUrlCover}
-							width={248}
-							height={100}
+							width={1500}
+							height={750}
 							alt={`Image do projeto ${recentProject.name}`}
-							className='mx-auto h-full w-10/12 rounded-md border shadow-md shadow-background'
+							className='mx-auto h-full w-11/12 rounded-md border shadow-md shadow-background'
 						/>
 					</Link>
 				</div>
