@@ -57,7 +57,10 @@ const ProjectDetailsPage = ({ params }: ProfessionalDetailsPageProps) => {
 						</p>
 
 						<div className='mt-2 flex items-center gap-10 self-end'>
-							<Link href={projetoItem.onlineURL ? projetoItem.onlineURL : ''}>
+							<Link
+								target='_blank'
+								rel='noopener noreferrer'
+								href={projetoItem.onlineURL ? projetoItem.onlineURL : ''}>
 								<Button
 									disabled={!projetoItem.onlineURL && true}
 									variant={'outline'}
@@ -66,7 +69,10 @@ const ProjectDetailsPage = ({ params }: ProfessionalDetailsPageProps) => {
 									Ver Online
 								</Button>
 							</Link>
-							<Link href={projetoItem.githubURL}>
+							<Link
+								target='_blank'
+								rel='noopener noreferrer'
+								href={projetoItem.githubURL}>
 								<Button
 									disabled={!projetoItem.githubURL && true}
 									variant={'outline'}
