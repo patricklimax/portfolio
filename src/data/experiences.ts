@@ -6,14 +6,14 @@ const projectsLength = projects.length;
 export const experiences: Experience[] = [
 	{
 		quantity: 2,
-		description: 'Anos de Experiência'
+		description: 'Anos Estudando'
 	},
 	{
 		quantity: projectsLength,
 		description: 'Projetos Construídos'
 	},
 	{
-		quantity: 4,
+		quantity: 0,
 		description: 'Clientes pelo mundo'
 	},
 	{
