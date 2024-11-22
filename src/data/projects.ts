@@ -6,7 +6,7 @@ export const projects: Project[] = [
 		name: 'Cioccolato Store',
 		class: 'principal',
 		descriptionCover:
-			'Este projeto foi desenvolvido para oferecer uma experiência de compra completa e intuitiva para uma loja de chocolates, doces e confeitos. A aplicação permite que os usuários explorem o cardápio, escolham produtos com diferentes opções de personalização, e finalizem suas compras com pagamento via QR Code Pix.',
+			'Este projeto foi desenvolvido para oferecer uma experiência de compra completa e intuitiva para uma loja de chocolates, doces e confeitos. Tudo para uma grande e agradável experiência.',
 		descriptionProject:
 			'A aplicação permite que os usuários explorem o cardápio, escolham produtos com diferentes opções de personalização, e finalizem suas compras com pagamento via QR Code Pix. O projeto conta com um site para apresentação da loja e uma página de menu/cardápio onde os usuários podem: navegar entre as categorias de produtos; escolher um produto e personalizá-lo com sabor, recheio, massa, cobertura e adicionais; adicionar produtos ao carrinho, revisar o pedido e realizar o checkout; gerar um QR Code para pagamento via Pix; enviar o pedido finalizado para o WhatsApp da loja.',
 		imgUrlCover:
