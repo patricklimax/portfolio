@@ -7,6 +7,8 @@ import { BoxDiv } from './box-div';
 const MediaSocialItem = ({ name, href, icon: Icon }: MediaSocialType) => {
 	return (
 		<Link
+			target='_blank'
+			rel='noopener noreferrer'
 			className='group/item rounded-md p-1.5 bg-primary border border-primary'
 			key={name}
 			href={href}>
