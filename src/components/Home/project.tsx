@@ -24,6 +24,7 @@ export const LastProject = () => {
 							src={recentProject.imgUrlCover}
 							width={1500}
 							height={750}
+							quality={100}
 							alt={`Image do projeto ${recentProject.name}`}
 							className='mx-auto h-full w-11/12 rounded-md border shadow-md shadow-background'
 						/>

@@ -15,18 +15,20 @@ export const FourProjects = () => {
 			{projectsFour.map(project => (
 				<Card
 					key={project.id}
-					className='flex-1'>
+					className='flex-1 p-0 flex'>
 					<CardContent className='gap-1 text-sm justify-center relative p-0'>
-						<div className='h-48 md:h-28 w-full '>
+						<div className='w-full h-full p-2'>
 							<Image
 								src={project.imgUrlCover}
 								alt='Imagem do Projeto'
-								width={150}
-								height={90}
-								className='h-full w-full rounded-md'
+								// fill
+								width={780}
+								height={500}
+								quality={100}
+								className='rounded-md w-full h-full'
 							/>
 						</div>
-						<div className='absolute bottom-1 rounded-md p-2 bg-background w-[97%] flex items-center justify-between'>
+						<div className='absolute bottom-1.5 rounded-md p-2 bg-background w-[95%] flex items-center justify-between'>
 							<p className='text-xs font-semibold'>{project.name}</p>
 							<Link
 								className='text-xs font-semibold flex gap-1 hover:text-primary'
