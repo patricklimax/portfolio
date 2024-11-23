@@ -31,39 +31,41 @@ export default function AboutPage() {
 
 							<div className='space-y-4 text-left text-xs '>
 								<p>
-									Sou um desenvolvedor em transição de carreira com 7 anos de
+									Sou um profissional em transição de carreira com 7 anos de
 									experiência em auditoria e consultoria tributária municipal,
-									atualmente focado no desenvolvimento front-end com React e em
-									constante aperfeiçoamento no ecossistema JavaScript para me
-									tornar um desenvolvedor FullStack. Minha formação em Ciências
+									atualmente focado no desenvolvimento frontend com React e em
+									constante aperfeiçoamento no ecossistema Javascript para me
+									tornar um desenvolvedor Fullstack. Minha formação em Ciências
 									Contábeis me proporcionou uma forte capacidade analítica e
-									atenção aos detalhes, que aplico na criação de interfaces e
-									soluções robustas de alta performance.
+									atenção aos detalhes, que aplico durante os estudos e na
+									criação projetos pessoais, com interfaces e soluções
+									escaláveis e com boa performance.
 								</p>
 
 								<p>
-									Após anos de experiência ajudando empresas/municipios a
-									otimizarem processos fiscais, garantindo economia e aumento da
-									arrecadão, decidi expandir minha carreira para a área de
-									tecnologia, buscando agregar valor com habilidades técnicas e
-									pessoais.
+									Após anos de experiência contribuindo com municípios para
+									otimizarem processos fiscais, garantindo economia e
+									alavancagem da arrecadação, decidi expandir minha carreira
+									para a área de tecnologia, buscando agregar valor com
+									habilidades técnicas e pessoais.
 								</p>
 								<p>
-									Estou em uma formação de aprendizado FullStack. Inicialmente
-									focado em consolidar todo conhecimento para front-end,
-									utilizando tecnologia do ecossistema Javascript como React e
-									diversas ferramentas afins, com o objetivo maior de expandir
-									meus conhecimentos para cobrir a stack completa para ser um
-									Desenvolvedor FullStack.
+									Estou em uma formação de aprendizado Fullstack e com o curso
+									de Engenharia de Software em andamento. Inicialmente focado em
+									consolidar todo conhecimento para frontend, utilizando
+									tecnologia do ecossistema Javascript como React e diversas
+									ferramentas afins, com o objetivo maior de expandir meus
+									conhecimentos para cobrir a stack completa de Desenvolvedor
+									Fullstack.
 								</p>
 
 								<p>
 									Estou motivado a aplicar essas habilidades para criar soluções
-									intuitivas e impactantes, ao mesmo tempo em que busco
-									oportunidades para colaborar em projetos inovadores. Minha
-									meta é crescer na área de desenvolvimento, contribuindo com
-									interfaces e serviços eficientes, sempre com foco na melhor
-									experiência para o usuário.
+									intuitivas, escaláveis e de alta performance, ao mesmo tempo
+									em que busco oportunidades para colaborar em projetos
+									inovadores. Minha meta é crescer na área de desenvolvimento,
+									contribuindo com interfaces e serviços eficientes, sempre com
+									foco na melhor experiência para o usuário.
 								</p>
 							</div>
 						</CardContent>
